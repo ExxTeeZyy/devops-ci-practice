@@ -1,1 +1,6 @@
 name: First CI
+
+on: 
+  push: 
+    branches:
+      - main
