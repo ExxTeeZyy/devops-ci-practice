@@ -1,4 +1,4 @@
-name: First CI
+name: First CI# My first learning workflow
 
 on:
   push:
