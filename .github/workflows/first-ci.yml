@@ -13,6 +13,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+
+      - name: Inspect workspace
+        run: |
+          pwd
+          ls -la
         
       - name: Say hello
         run: echo "CI works"
