@@ -1,4 +1,5 @@
-name: First CI# My first learning workflow
+# My first learning workflow
+name: First CI
 
 on:
   push:
