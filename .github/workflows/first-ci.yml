@@ -18,6 +18,9 @@ jobs:
         run: |
           pwd
           ls -la
+
+      - name: Run project check
+        run: bash check.sh
         
       - name: Say hello
         run: echo "CI works"
