@@ -19,6 +19,9 @@ jobs:
           pwd
           ls -la
 
+      - name: Validate shell script
+        run: bash -n check.sh
+        
       - name: Run project check
         run: bash check.sh
         
