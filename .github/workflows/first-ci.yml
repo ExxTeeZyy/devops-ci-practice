@@ -28,6 +28,5 @@ jobs:
       - name: Run tests
         run: bash tests/test_app.sh
         
-      - name: Say hello
-        run: echo "CI works"
+     
       
